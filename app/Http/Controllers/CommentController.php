@@ -18,7 +18,7 @@ class CommentController extends Controller
         return Comment
         ::queryControl()
         ->queryFilter()
-        ->get();
+        ->queryGet();
     }
 
     /**

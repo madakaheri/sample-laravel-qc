@@ -18,7 +18,7 @@ class UserController extends Controller
         return User
         ::queryControl()
         ->queryFilter()
-        ->get();
+        ->queryGet();
     }
 
     /**
